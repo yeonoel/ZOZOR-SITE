@@ -1,0 +1,262 @@
+
+	
+@font-face {
+    font-family: 'ballparkweiner';
+    src: url('ballpark-webfont.woff2') format('woff2'),
+         url('ballpark-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+body
+{
+	width: 70%;
+	margin: auto;
+	 font-family: 'Trebuchet MS', Arial, sans-serif;
+	background: url(images/fond_jaune.png);
+}
+a
+{
+	text-decoration: none;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
+nav
+{
+	
+	width: 40%;
+	
+}
+nav ul
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+nav ul > li a:hover
+{
+	color: rgb(136,31,28);
+	text-decoration: underline;
+}
+nav ul > li a:active
+{
+	color: rgb(136,31,28);
+	text-decoration: underline;
+}
+
+
+nav ul > li
+{
+list-style: none;
+text-transform: uppercase;
+font-weight: bold;
+margin-top: 85px;
+}
+/*firstsec*/
+
+#firstsec
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	height: 200px;
+	background: url(images/sanfrancisco.jpg)no-repeat;
+
+}
+#firstsec p
+{
+	color: white;
+	margin: 0 0 9px 9px;
+
+
+}
+#firstsec a
+{
+	margin: 0 9px 9px 0;
+	color: rgb(165, 93 , 94);
+	color: white;
+	background-color: rgb(134,29,31);
+	border-radius: 3px;
+	text-align: center;
+	text-decoration: none;
+	height: 28px;
+	width: 100px;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+/*dection article et aside*/
+
+#secondsec
+{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+article
+{
+	text-align: justify;
+	margin-right: 20px;
+}
+aside
+{
+	text-align: center;
+	color: #fff;
+
+	background-color: rgb(112,107,100);
+	border-radius: 5px;
+	height: 680px;
+	
+}
+aside p
+{
+
+}
+.imgreseau
+{
+	display: flex;
+	justify-content: space-around;
+}
+footer
+{
+	display: flex;
+	justify-content: space-between;
+	
+	 background:  url('images/ico_top.png') no-repeat top center ,url(images/separateur.png)repeat-x top,url('images/ombre.png') repeat-x top;
+    padding-top: 25px;;
+
+}
+footer div:nth-child(2) img
+{
+
+ border: 1px solid #000;
+ margin-left: 10px;
+}
+footer div:nth-child(2) h3
+{
+	margin-left: 10px;
+}
+footer div:nth-child(3) h3
+{
+	margin-left: 20px;
+}
+footer div:nth-child(3) ul
+{
+	display: inline-block;
+	
+	
+	
+}
+aside p img
+{
+	position: absolute;
+	margin-left: -23px;
+}
+footer div:nth-child(3) ul > li
+{
+	list-style: none;
+	text-align: left;
+ }
+
+ 
+footer div:nth-child(3)
+{
+	background-color: ;
+	
+} 
+footer div:nth-child(3) ul  li > img
+{
+
+}
+
+
+@media screen and (max-width: 1024px)
+{
+
+										body
+										{
+											width: auto;
+											
+										}
+										nav
+										{
+											
+											width: 40%;
+											margin-top: 15px;
+											padding-top: 5px;
+											
+										}
+										nav ul
+										{
+											flex-direction: column;
+											justify-content: none;
+
+
+
+										}
+										nav ul > li
+										{
+										
+										
+										font-weight: bold;
+										margin-top: 2px;
+										font-size: 0.9em;
+										}
+										#firstsec
+{
+	display: none;
+
+}
+nav ul > li a:hover
+{
+	color: rgb(136,31,28);
+	text-decoration: none;
+}
+#secondsec
+{
+	
+	flex-direction: column;
+}
+.imgreseau
+{
+	
+	justify-content: center;
+}
+aside
+{
+	
+	height: 350px;
+	
+}
+aside img:nth-child(2)
+{
+	float: right;
+}
+
+aside h1
+{
+		text-align: left;
+		padding-left: 20px;
+}
+aside p img
+{
+	display: none;
+
+}
+  aside p:last-child
+    {
+        text-align: center;
+    }
+										
+										
+							
+
+}
